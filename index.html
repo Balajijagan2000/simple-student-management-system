@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/80f48c3873.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Student Management System</h1>
+            
+            <button>Add Student</button>
+        </header>
+        <main>
+            <div class="student-list-container">
+                <h2>Students List</h2>
+                <div class="student-list">
+                    
+                </div>
+            </div>
+            <div class="student-detail">
+                <h2>Student Detail</h2>
+                <div class="student-detail-container"></div>
+            </div>
+        </main>
+
+        <div class="add-container">
+            <form>
+                <div class="form-group">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" required />
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name" required />
+                </div>
+                <div class="form-group">
+                    <input type="text" id="dob" name="dob" placeholder="Date of birth" onfocus="(this.type='date')" required />
+                </div>
+                <div class="form-group">
+                    <input type="text" id="bloodgroup" name="bloodgroup" placeholder="Blood Group" required />
+                </div>
+    
+                <div class="form-group">
+                    <input type="text" id="school" name="school" placeholder="School Name" required />
+                </div>
+                <div class="form-group">
+                    
+                    <input type="number" id="grade" name="grade" placeholder="Grade" required />
+                    <input type="text" id="sec" name="sec" placeholder="Section" required />
+    
+                </div>
+    
+                <div class="form-group">
+                    <textarea id="address" name="address" placeholder="Student Address" required ></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <input type="email" id="schoolemail" name="schoolemail" placeholder="Email" required />
+                </div>
+    
+                <div class="form-group">
+                    <input type="text" id="url" name="url" placeholder="Image URL" />
+                </div>
+    
+                <div class="form-group">
+                    <button type="submit">Add</button>
+                </div>
+    
+            </form>
+        </div>
+        
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

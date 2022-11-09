@@ -1,0 +1,91 @@
+[
+    {
+        "id":1,
+        "firstname":"Sam",
+        "lastname":"C",
+        "dob":"01-03-2009",
+        "age":14,
+        "bloodgroup":"B+ve",
+        "grade": 7,
+        "sec":"A",
+        "school":"ACB School",
+        "address":"01,ABC Street,XYZ Area,YYY",
+        "schoolemail":"samc@ACB.com",
+        "url":"../images/user.png"
+    },
+    {
+        "id":2,
+        "firstname":"Sita",
+        "lastname":"L",
+        "dob":"01-04-2009",
+        "age":14,
+        "bloodgroup":"B-ve",
+        "grade": 7,
+        "sec":"A",
+        "school":"ACB School",
+        "address":"100,XXX Street,XYZ Area,YYY",
+        "schoolemail":"sital@ACB.com",
+        "url":"../images/user.png"
+
+    },
+    {
+        "id":3,
+        "firstname":"Kumar",
+        "lastname":"N",
+        "dob":"01-03-2010",
+        "age":13,
+        "bloodgroup":"O+ve",
+        "grade": 6,
+        "sec":"B",
+        "school":"ZZZ School",
+        "address":"300,AAA Street,XYZ Area,YYY",
+        "schoolemail":"kumarn@ACB.com",
+        "url":"../images/user.png"
+
+    },
+    {
+        "id":4,
+        "firstname":"Anil",
+        "lastname":"K",
+        "dob":"01-03-2011",
+        "age":11,
+        "bloodgroup":"B+ve",
+        "grade": 5,
+        "sec":"C",
+        "school":"BCA School",
+        "address":"03 block,YYY Street,XYZ Area,YYY",
+        "schoolemail":"anilk@ACB.com",
+        "url":"../images/user.png"
+
+    },
+    {
+        "id":5,
+        "firstname":"Sharma",
+        "lastname":"Kunal",
+        "dob":"01-03-2000",
+        "age":18,
+        "bloodgroup":"B+ve",
+        "grade": 12,
+        "sec":"A",
+        "school":"38,ABC Street,XYZ Area,YYY",
+        "schoolemail":"sharmak@ACB.com",
+        "url":"../images/user.png"
+
+    },
+    {
+        "id":6,
+        "firstname":"Nandhini",
+        "lastname":"K",
+        "dob":"01-03-2001",
+        "age":17,
+        "bloodgroup":"B+ve",
+        "grade": 11,
+        "sec":"A1",
+        "school":"YYY School",
+        "address":"025,ABC Street,XYZ Area,YYY",
+        "schoolemail":"nandk@ACB.com",
+        "url":"../images/user.png"
+
+    }
+
+]
